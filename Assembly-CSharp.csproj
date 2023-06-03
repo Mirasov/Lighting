@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{59a9e4ab-105e-73c1-c8d5-daadd9fcade0}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.Rider.Editor\</OutputPath>
+    <DefineConstants>UNITY_EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Folder Include="Assets" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Panoramics" />
+     <Folder Include="Assets\Animator\Materials" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Panoramics\FS013" />
+     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Scenes\Demo with terrain\Materials" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps\FS002" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps" />
+     <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
+     <Folder Include="Assets\Fantasy Skybox FREE" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Scenes\Materials" />
+     <Folder Include="Assets\Simple Garage\Scenes\Garage Scene" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps\FS013\Images" />
+     <Folder Include="Assets\Simple Garage" />
+     <Folder Include="Assets\Scenes\SampleScene" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps\FS013" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps\FS017\Images" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Panoramics\FS002" />
+     <Folder Include="Assets\Simple Garage\Models" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Panoramics\FS003" />
+     <Folder Include="Assets\Simple Garage\Prefabs" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps\Classic" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Panoramics\FS017" />
+     <Folder Include="Assets\Simple Garage\Textures" />
+     <Folder Include="Assets\Animator" />
+     <Folder Include="Assets\Animator\Textures" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps\FS002\Images" />
+     <Folder Include="Assets\Simple Garage\Materials" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps\FS017" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Scenes" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Scenes\Demo with terrain" />
+     <Folder Include="Assets\Simple Garage\Scenes" />
+     <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Animations" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps\FS003" />
+     <Folder Include="Assets\Fantasy Skybox FREE\Cubemaps\FS003\Images" />
+     <Reference Include="UnityEngine">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
